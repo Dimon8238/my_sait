@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.border { border: 1px solid #000;}
+
+/*Верхнее навигационное меню*/
+ul#topmenu {
+	list-style:none;
+	margin:0;
+	padding: 7px 7px;
+	border-bottom: 1px solid #CCC;
+	font-weight:bold;
+	text-align:right;
+	white-space:nowrap;
+    }
+
+ul#topmenu li {
+	display:inline;
+	margin: 0 3px;	
+	}
+	
+ul#topmenu a {
+	text-decoration:none;
+	padding: 0 0 3px;
+	border-bottom: 4px solid #FFF;
+	color:#666;
+	}	
+	
+ul#topmenu a:hover { border-color:#F30;}	
+
+ul#topmenu a#current { border-color:#F30; color:#09F;}	
+
+
+/*Левое навигационное меню*/
+
+#leftmenu {
+	width: 148px;
+	margin: 10px;
+    }
+	
+#leftmenu ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+    }
+
+#leftmenu li a {
+	height: 24px;
+	color: #333;
+	display: block;
+	background: url(img/leftmenu.gif);
+	padding: 8px 0 0 10px;
+	font-weight:bold;
+	color:#666666;
+	text-align:left;
+	text-decoration:none;
+    }
+/*код: при наведении курсора мыши меняется цвет левого меню*/
+#leftmenu li a:hover {
+	color: #FFF;
+	background: url(img/leftmenu.gif) 0 -33px;
+	padding: 8px 0 0 10px;
+    }
+	
+	
+/*Контентная часть*/	
+h1 {font-size:18px;}
+
+p {font-size:14px; color:#000; font-weight:bold; font-family:Verdana, Geneva, sans-serif; padding: 5px;}
+
+
+p img {
+	padding: 0 5px 5px 0;}
+
+div#content {
+	border: 1px solid #000;
+	margin: 5px;
+	}
+.name {
+	color:#06F; font-weight:bold;
+	}	
